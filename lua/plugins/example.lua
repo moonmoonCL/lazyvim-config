@@ -22,6 +22,9 @@ return {
 		"m4xshen/hardtime.nvim",
     opts = {}
   },
+  {
+    "mg979/vim-visual-multi",
+  },
   -- disable trouble
   -- { "folke/trouble.nvim", enabled = false },
 
