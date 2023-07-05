@@ -15,7 +15,13 @@ return {
     -- opts will be merged with the parent spec
     opts = { use_diagnostic_signs = true },
   },
-
+  {
+    "f-person/git-blame.nvim",
+  },
+  {
+		"m4xshen/hardtime.nvim",
+    opts = {}
+  },
   -- disable trouble
   -- { "folke/trouble.nvim", enabled = false },
 
