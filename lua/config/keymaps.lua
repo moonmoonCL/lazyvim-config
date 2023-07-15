@@ -5,3 +5,6 @@
 local map = vim.api.nvim_set_keymap
 local opt = { noremap = true, silent = true }
 map("n", "Q", ":w<CR>", opt)
+
+-- nvimTree
+map("n", "<A-e>", ":NvimTreeFindFileToggle<CR>", opt)
