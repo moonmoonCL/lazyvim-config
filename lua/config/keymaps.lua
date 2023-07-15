@@ -8,3 +8,6 @@ map("n", "Q", ":w<CR>", opt)
 
 -- nvimTree
 map("n", "<A-e>", ":NvimTreeFindFileToggle<CR>", opt)
+
+-- gitui
+map("n", "<C-g>", ":Gitui<CR>", opt)
