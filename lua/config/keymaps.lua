@@ -11,3 +11,7 @@ map("n", "<A-e>", ":NvimTreeFindFileToggle<CR>", opt)
 
 -- gitui
 map("n", "<C-g>", ":Gitui<CR>", opt)
+
+-- diffview
+map("n", "<A-d>o", ":DiffviewOpen<CR>", opt)
+map("n", "<A-d>c", ":DiffviewClose<CR>", opt)
