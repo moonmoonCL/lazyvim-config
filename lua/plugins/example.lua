@@ -121,7 +121,10 @@ return {
       setup = {
         -- example to setup with typescript.nvim
         tsserver = function(_, opts)
-          require("typescript").setup({ server = opts })
+          require("typescript").setup({
+            server = opts, 
+            root_dir = require('lspconfig.util').root_pattern('.git'),
+          })
           return true
         end,
         -- Specify * to use this function as a fallback for any server
