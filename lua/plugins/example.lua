@@ -18,10 +18,11 @@ return {
   {
     "f-person/git-blame.nvim",
   },
-  -- {
-  -- "m4xshen/hardtime.nvim",
-  --   opts = {}
-  -- },
+  {
+    "m4xshen/hardtime.nvim",
+    opts = {},
+    enabled = false
+  },
   {
     "mg979/vim-visual-multi",
   },
