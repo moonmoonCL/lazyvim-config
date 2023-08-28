@@ -1,5 +1,5 @@
 return {
   "folke/tokyonight.nvim",
   lazy = false,
-  opts = { style = "night" },
+  opts = { style = "night", transparent = true },
 }
